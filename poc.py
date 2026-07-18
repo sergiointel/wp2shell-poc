@@ -278,7 +278,7 @@ if len(set(cache_post_ids)) != 3:
 
 username = f"w2s_{token}"
 password = f"W2s!{secrets.token_urlsafe(15)}"
-email = f"{username}@shellcode.lol"
+email = f"{username}@wp2shell.shellcode.lol"
 outer_loop_id = 1800000000 + secrets.randbelow(100000000)
 nav_item_id = outer_loop_id + 1
 inner_loop_id = outer_loop_id + 2
